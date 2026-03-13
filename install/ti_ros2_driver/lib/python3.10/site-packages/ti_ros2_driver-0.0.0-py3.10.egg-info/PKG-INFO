@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ti-ros2-driver
+Version: 0.0.0
+Summary: Read uart data from ti iwr6843aopevm mmwave sensor and publish the data in ros2 env
+Home-page: UNKNOWN
+Maintainer: gyro
+Maintainer-email: lightinfected@hotmail.com
+License: TODO: License declaration
+Platform: UNKNOWN
+
+UNKNOWN
+

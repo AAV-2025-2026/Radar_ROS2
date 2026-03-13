@@ -1,0 +1,6 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/filter_single_frame.dir/example/filter_single_frame.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable filter_single_frame[0m
+[ 25%] Built target filter_single_frame
+[ 37%] [32mBuilding CXX object CMakeFiles/test_icp.dir/example/test_icp.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/filter_multi_frames.dir/example/filter_multi_frames.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/dbscan.dir/example/dbscan.cpp.o[0m

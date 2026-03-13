@@ -1,0 +1,40 @@
+[4.488s] Invoking command in '/home/aav/ros2_ws/src/iwr6843aop_pub': PYTHONPATH=/home/aav/ros2_ws/build/iwr6843aop_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iwr6843aop_pub build --build-base /home/aav/ros2_ws/build/iwr6843aop_pub/build install --record /home/aav/ros2_ws/build/iwr6843aop_pub/install.log --install-scripts $base/lib/iwr6843aop_pub --single-version-externally-managed install_data
+[6.404s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.405s]   warnings.warn(
+[6.469s] running egg_info
+[6.475s] creating ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info
+[6.477s] writing ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/PKG-INFO
+[6.480s] writing dependency_links to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/dependency_links.txt
+[6.490s] writing entry points to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/entry_points.txt
+[6.493s] writing requirements to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/requires.txt
+[6.494s] writing top-level names to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/top_level.txt
+[6.494s] writing manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+[6.501s] reading manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+[6.506s] writing manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+[6.509s] running build
+[6.510s] running build_py
+[6.516s] creating /home/aav/ros2_ws/build/iwr6843aop_pub/build
+[6.518s] creating /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib
+[6.521s] creating /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+[6.523s] copying iwr6843aop_pub/publisher_member_function.py -> /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+[6.524s] copying iwr6843aop_pub/__init__.py -> /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+[6.524s] running install
+[6.525s] running install_lib
+[6.526s] creating /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub
+[6.527s] copying /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub/publisher_member_function.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub
+[6.528s] copying /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub/__init__.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub
+[6.531s] byte-compiling /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[6.546s] byte-compiling /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub/__init__.py to __init__.cpython-310.pyc
+[6.550s] running install_data
+[6.554s] creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index
+[6.556s] creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index
+[6.557s] creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index/packages
+[6.557s] copying resource/iwr6843aop_pub -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index/packages
+[6.558s] copying package.xml -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/iwr6843aop_pub
+[6.560s] copying launch/default_parameters.launch.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/iwr6843aop_pub
+[6.560s] running install_egg_info
+[6.571s] Copying ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info to /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub-0.0.0-py3.10.egg-info
+[6.586s] running install_scripts
+[6.699s] Installing pcl_pub script to /home/aav/ros2_ws/install/iwr6843aop_pub/lib/iwr6843aop_pub
+[6.700s] writing list of installed files to '/home/aav/ros2_ws/build/iwr6843aop_pub/install.log'
+[6.939s] Invoked command in '/home/aav/ros2_ws/src/iwr6843aop_pub' returned '0': PYTHONPATH=/home/aav/ros2_ws/build/iwr6843aop_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/iwr6843aop_pub build --build-base /home/aav/ros2_ws/build/iwr6843aop_pub/build install --record /home/aav/ros2_ws/build/iwr6843aop_pub/install.log --install-scripts $base/lib/iwr6843aop_pub --single-version-externally-managed install_data

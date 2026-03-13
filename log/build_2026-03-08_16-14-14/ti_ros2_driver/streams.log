@@ -1,0 +1,39 @@
+[2.969s] Invoking command in '/home/aav/ros2_ws/build/ti_ros2_driver': PYTHONPATH=/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aav/ros2_ws/build/ti_ros2_driver/build --no-deps symlink_data --force
+[4.155s] running develop
+[4.943s] running egg_info
+[4.944s] writing ti_ros2_driver.egg-info/PKG-INFO
+[4.946s] writing dependency_links to ti_ros2_driver.egg-info/dependency_links.txt
+[4.947s] writing entry points to ti_ros2_driver.egg-info/entry_points.txt
+[4.948s] writing requirements to ti_ros2_driver.egg-info/requires.txt
+[4.949s] writing top-level names to ti_ros2_driver.egg-info/top_level.txt
+[4.958s] reading manifest file 'ti_ros2_driver.egg-info/SOURCES.txt'
+[4.964s] writing manifest file 'ti_ros2_driver.egg-info/SOURCES.txt'
+[4.970s] running build_ext
+[4.970s] Creating /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti-ros2-driver.egg-link (link to .)
+[4.974s] Installing pcl_pub script to /home/aav/ros2_ws/install/ti_ros2_driver/lib/ti_ros2_driver
+[4.975s] 
+[4.976s] Installed /home/aav/ros2_ws/build/ti_ros2_driver
+[4.976s] running symlink_data
+[4.976s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/resource/ti_ros2_driver -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ament_index/resource_index/packages
+[4.977s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/package.xml -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver
+[4.978s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/launch/6843aop_base.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+[4.978s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/launch/6843aop_HeatMap.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+[4.979s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/launch/6843aop_3d_tracking.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+[4.980s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.981s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_9m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.981s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_9m_sensitive.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.982s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_6m_tracking_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.983s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/RADheatmap.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.983s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ODS_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.984s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ODS_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.984s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ISK_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.985s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.986s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/3d_tracking_indoor.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.986s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/3d_tracking_high_detection.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.987s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ISK_6m_staticRetention_45deg.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.988s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ISK_14m_extended.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.988s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ISK_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.989s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/base.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.990s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/3d_tracking_low_noise.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[4.991s] symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/debug/result.json -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/debug
+[5.132s] Invoked command in '/home/aav/ros2_ws/build/ti_ros2_driver' returned '0': PYTHONPATH=/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aav/ros2_ws/build/ti_ros2_driver/build --no-deps symlink_data --force

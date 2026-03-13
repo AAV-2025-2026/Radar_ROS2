@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target filter_single_frame[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/dbscan.dir/example/dbscan.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/filter_multi_frames.dir/example/filter_multi_frames.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/test_icp.dir/example/test_icp.cpp.o[0m
+[ 62%] Built target filter_single_frame

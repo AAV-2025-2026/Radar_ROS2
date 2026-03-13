@@ -1,0 +1,3 @@
+Invoking command in '/home/aav/ros2_ws/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aav/ros2_ws/src/object_detection -DCMAKE_INSTALL_PREFIX=/home/aav/ros2_ws/install/object_detection
+Invoked command in '/home/aav/ros2_ws/build/object_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aav/ros2_ws/src/object_detection -DCMAKE_INSTALL_PREFIX=/home/aav/ros2_ws/install/object_detection
+Invoking command in '/home/aav/ros2_ws/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aav/ros2_ws/build/object_detection -- -j4 -l4

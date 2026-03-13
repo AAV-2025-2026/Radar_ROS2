@@ -1,0 +1,33 @@
+[0.042s] Invoking command in '/home/aav/ros2_ws/build/object_detection': /usr/bin/cmake /home/aav/ros2_ws/src/object_detection -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/aav/ros2_ws/install/object_detection
+[1.093s] -- The C compiler identification is GNU 11.4.0
+[1.810s] -- The CXX compiler identification is GNU 11.4.0
+[1.852s] -- Detecting C compiler ABI info
+[2.209s] -- Detecting C compiler ABI info - done
+[2.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.237s] -- Detecting C compile features
+[2.240s] -- Detecting C compile features - done
+[2.254s] -- Detecting CXX compiler ABI info
+[2.599s] -- Detecting CXX compiler ABI info - done
+[2.628s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.629s] -- Detecting CXX compile features
+[2.631s] -- Detecting CXX compile features - done
+[2.805s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[2.805s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.806s]   has asked CMake to find a package configuration file provided by
+[2.806s]   "ament_cmake", but CMake did not find one.
+[2.806s] 
+[2.807s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.807s]   any of the following names:
+[2.807s] 
+[2.808s]     ament_cmakeConfig.cmake
+[2.808s]     ament_cmake-config.cmake
+[2.809s] 
+[2.809s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.810s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.811s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.812s]   has been installed.
+[2.813s] 
+[2.814s] [0m
+[2.814s] -- Configuring incomplete, errors occurred!
+[2.815s] See also "/home/aav/ros2_ws/build/object_detection/CMakeFiles/CMakeOutput.log".
+[2.820s] Invoked command in '/home/aav/ros2_ws/build/object_detection' returned '1': /usr/bin/cmake /home/aav/ros2_ws/src/object_detection -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/aav/ros2_ws/install/object_detection

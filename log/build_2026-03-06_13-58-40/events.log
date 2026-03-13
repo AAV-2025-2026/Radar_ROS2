@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.001113] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.001356] (-) JobUnselected: {'identifier': 'ti_ros2_driver'}
+[0.001961] (-) EventReactorShutdown: {}

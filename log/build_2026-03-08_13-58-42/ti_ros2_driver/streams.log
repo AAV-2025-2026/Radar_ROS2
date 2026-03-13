@@ -1,0 +1,22 @@
+[2.720s] Invoking command in '/home/aav/ros2_ws/src/ti_ros2_driver': PYTHONPATH=/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ti_ros2_driver build --build-base /home/aav/ros2_ws/build/ti_ros2_driver/build install --record /home/aav/ros2_ws/build/ti_ros2_driver/install.log --single-version-externally-managed install_data
+[3.805s] running egg_info
+[3.808s] writing ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/PKG-INFO
+[3.809s] writing dependency_links to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/dependency_links.txt
+[3.810s] writing entry points to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/entry_points.txt
+[3.811s] writing requirements to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/requires.txt
+[3.812s] writing top-level names to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/top_level.txt
+[3.820s] reading manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'
+[3.825s] writing manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'
+[3.826s] running build
+[3.826s] running build_py
+[3.828s] running install
+[3.830s] running install_lib
+[3.836s] running install_data
+[3.837s] copying launch/6843aop_3d_tracking.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+[3.840s] running install_egg_info
+[3.850s] removing '/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[3.852s] Copying ../../build/ti_ros2_driver/ti_ros2_driver.egg-info to /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info
+[3.858s] running install_scripts
+[3.943s] Installing pcl_pub script to /home/aav/ros2_ws/install/ti_ros2_driver/lib/ti_ros2_driver
+[3.946s] writing list of installed files to '/home/aav/ros2_ws/build/ti_ros2_driver/install.log'
+[4.064s] Invoked command in '/home/aav/ros2_ws/src/ti_ros2_driver' returned '0': PYTHONPATH=/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ti_ros2_driver build --build-base /home/aav/ros2_ws/build/ti_ros2_driver/build install --record /home/aav/ros2_ws/build/ti_ros2_driver/install.log --single-version-externally-managed install_data

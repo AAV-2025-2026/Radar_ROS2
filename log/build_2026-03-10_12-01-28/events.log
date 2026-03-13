@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.006176] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.007058] (-) JobUnselected: {'identifier': 'ti_ros2_driver'}
+[0.011102] (iwr6843aop_pub) JobQueued: {'identifier': 'iwr6843aop_pub', 'dependencies': OrderedDict()}
+[0.011562] (iwr6843aop_pub) JobStarted: {'identifier': 'iwr6843aop_pub'}
+[0.099425] (-) TimerEvent: {}
+[0.203360] (-) TimerEvent: {}
+[0.304752] (-) TimerEvent: {}
+[0.405739] (-) TimerEvent: {}
+[0.506560] (-) TimerEvent: {}
+[0.607426] (-) TimerEvent: {}
+[0.708494] (-) TimerEvent: {}
+[0.810636] (-) TimerEvent: {}
+[0.911466] (-) TimerEvent: {}
+[1.012223] (-) TimerEvent: {}
+[1.112996] (-) TimerEvent: {}
+[1.213749] (-) TimerEvent: {}
+[1.314872] (-) TimerEvent: {}
+[1.418408] (-) TimerEvent: {}
+[1.519478] (-) TimerEvent: {}
+[1.621003] (-) TimerEvent: {}
+[1.722271] (-) TimerEvent: {}
+[1.823581] (-) TimerEvent: {}
+[1.925563] (-) TimerEvent: {}
+[2.028701] (-) TimerEvent: {}
+[2.130836] (-) TimerEvent: {}
+[2.232189] (-) TimerEvent: {}
+[2.332972] (-) TimerEvent: {}
+[2.434301] (-) TimerEvent: {}
+[2.536484] (-) TimerEvent: {}
+[2.637868] (-) TimerEvent: {}
+[2.738744] (-) TimerEvent: {}
+[2.839593] (-) TimerEvent: {}
+[2.940327] (-) TimerEvent: {}
+[3.041345] (-) TimerEvent: {}
+[3.143344] (-) TimerEvent: {}
+[3.244475] (-) TimerEvent: {}
+[3.345234] (-) TimerEvent: {}
+[3.445964] (-) TimerEvent: {}
+[3.546715] (-) TimerEvent: {}
+[3.647535] (-) TimerEvent: {}
+[3.749565] (-) TimerEvent: {}
+[3.851787] (-) TimerEvent: {}
+[3.954352] (-) TimerEvent: {}
+[4.055624] (-) TimerEvent: {}
+[4.156783] (-) TimerEvent: {}
+[4.258133] (-) TimerEvent: {}
+[4.361065] (-) TimerEvent: {}
+[4.463852] (-) TimerEvent: {}
+[4.495391] (iwr6843aop_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/iwr6843aop_pub', 'build', '--build-base', '/home/aav/ros2_ws/build/iwr6843aop_pub/build', 'install', '--record', '/home/aav/ros2_ws/build/iwr6843aop_pub/install.log', '--install-scripts', '$base/lib/iwr6843aop_pub', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aav/ros2_ws/src/iwr6843aop_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'aav', 'SSH_CLIENT': '192.168.2.27 63148 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/aav/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aav/ros2_ws/install/backward_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/aav/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/aav', 'OLDPWD': '/home/aav/ros2_ws/src/iwr6843aop_pub', 'TERM_PROGRAM_VERSION': '1.110.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0a69362c-ed85-4c7f-87fb-7653315cdf64.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/aav/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/aav/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aav/ros2_ws/src/iwr6843aop_pub/install:/home/aav/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/aav/ros2_ws/install/backward_ros/lib/aarch64-linux-gnu/pkgconfig:/home/aav/ros2_ws/install/backward_ros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aav/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/aav/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/aav/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5b4392b790.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/aav/ros2_ws/src/iwr6843aop_pub/install/iwr6843aop_pub:/home/aav/ros2_ws/install/ti_ros2_driver:/home/aav/ros2_ws/install/object_detection:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/aav/ros2_ws/build/iwr6843aop_pub', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.27 63148 192.168.2.226 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aav/ros2_ws/build/iwr6843aop_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages:/home/aav/ros2_ws/src/iwr6843aop_pub/install/iwr6843aop_pub/lib/python3.10/site-packages:/home/aav/ros2_ws/build/ti_ros2_driver:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aav/ros2_ws/install/object_detection:/home/aav/ros2_ws/install/backward_ros'}, 'shell': False}
+[4.564180] (-) TimerEvent: {}
+[4.665752] (-) TimerEvent: {}
+[4.767279] (-) TimerEvent: {}
+[4.869428] (-) TimerEvent: {}
+[4.972104] (-) TimerEvent: {}
+[5.073529] (-) TimerEvent: {}
+[5.174326] (-) TimerEvent: {}
+[5.275806] (-) TimerEvent: {}
+[5.379110] (-) TimerEvent: {}
+[5.480480] (-) TimerEvent: {}
+[5.581175] (-) TimerEvent: {}
+[5.681916] (-) TimerEvent: {}
+[5.782768] (-) TimerEvent: {}
+[5.884085] (-) TimerEvent: {}
+[5.988000] (-) TimerEvent: {}
+[6.089851] (-) TimerEvent: {}
+[6.191256] (-) TimerEvent: {}
+[6.291986] (-) TimerEvent: {}
+[6.392716] (-) TimerEvent: {}
+[6.416410] (iwr6843aop_pub) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.417449] (iwr6843aop_pub) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.481534] (iwr6843aop_pub) StdoutLine: {'line': b'running egg_info\n'}
+[6.486025] (iwr6843aop_pub) StdoutLine: {'line': b'creating ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info\n'}
+[6.489492] (iwr6843aop_pub) StdoutLine: {'line': b'writing ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/PKG-INFO\n'}
+[6.492146] (iwr6843aop_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/dependency_links.txt\n'}
+[6.493939] (-) TimerEvent: {}
+[6.497798] (iwr6843aop_pub) StdoutLine: {'line': b'writing entry points to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/entry_points.txt\n'}
+[6.503271] (iwr6843aop_pub) StdoutLine: {'line': b'writing requirements to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/requires.txt\n'}
+[6.505999] (iwr6843aop_pub) StdoutLine: {'line': b'writing top-level names to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/top_level.txt\n'}
+[6.506916] (iwr6843aop_pub) StdoutLine: {'line': b"writing manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'\n"}
+[6.514082] (iwr6843aop_pub) StdoutLine: {'line': b"reading manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'\n"}
+[6.518353] (iwr6843aop_pub) StdoutLine: {'line': b"writing manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'\n"}
+[6.520897] (iwr6843aop_pub) StdoutLine: {'line': b'running build\n'}
+[6.522392] (iwr6843aop_pub) StdoutLine: {'line': b'running build_py\n'}
+[6.527407] (iwr6843aop_pub) StdoutLine: {'line': b'creating /home/aav/ros2_ws/build/iwr6843aop_pub/build\n'}
+[6.529776] (iwr6843aop_pub) StdoutLine: {'line': b'creating /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib\n'}
+[6.531717] (iwr6843aop_pub) StdoutLine: {'line': b'creating /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub\n'}
+[6.534897] (iwr6843aop_pub) StdoutLine: {'line': b'copying iwr6843aop_pub/publisher_member_function.py -> /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub\n'}
+[6.536174] (iwr6843aop_pub) StdoutLine: {'line': b'copying iwr6843aop_pub/__init__.py -> /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub\n'}
+[6.537007] (iwr6843aop_pub) StdoutLine: {'line': b'running install\n'}
+[6.537655] (iwr6843aop_pub) StdoutLine: {'line': b'running install_lib\n'}
+[6.538840] (iwr6843aop_pub) StdoutLine: {'line': b'creating /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub\n'}
+[6.539554] (iwr6843aop_pub) StdoutLine: {'line': b'copying /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub/publisher_member_function.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub\n'}
+[6.540469] (iwr6843aop_pub) StdoutLine: {'line': b'copying /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub/__init__.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub\n'}
+[6.543769] (iwr6843aop_pub) StdoutLine: {'line': b'byte-compiling /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[6.557821] (iwr6843aop_pub) StdoutLine: {'line': b'byte-compiling /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub/__init__.py to __init__.cpython-310.pyc\n'}
+[6.560744] (iwr6843aop_pub) StdoutLine: {'line': b'running install_data\n'}
+[6.564412] (iwr6843aop_pub) StdoutLine: {'line': b'creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index\n'}
+[6.567404] (iwr6843aop_pub) StdoutLine: {'line': b'creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index\n'}
+[6.569137] (iwr6843aop_pub) StdoutLine: {'line': b'creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index/packages\n'}
+[6.570009] (iwr6843aop_pub) StdoutLine: {'line': b'copying resource/iwr6843aop_pub -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index/packages\n'}
+[6.570764] (iwr6843aop_pub) StdoutLine: {'line': b'copying package.xml -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/iwr6843aop_pub\n'}
+[6.572025] (iwr6843aop_pub) StdoutLine: {'line': b'copying launch/default_parameters.launch.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/iwr6843aop_pub\n'}
+[6.572776] (iwr6843aop_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.583825] (iwr6843aop_pub) StdoutLine: {'line': b'Copying ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info to /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub-0.0.0-py3.10.egg-info\n'}
+[6.594289] (-) TimerEvent: {}
+[6.597446] (iwr6843aop_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.694655] (-) TimerEvent: {}
+[6.711101] (iwr6843aop_pub) StdoutLine: {'line': b'Installing pcl_pub script to /home/aav/ros2_ws/install/iwr6843aop_pub/lib/iwr6843aop_pub\n'}
+[6.713046] (iwr6843aop_pub) StdoutLine: {'line': b"writing list of installed files to '/home/aav/ros2_ws/build/iwr6843aop_pub/install.log'\n"}
+[6.795628] (-) TimerEvent: {}
+[6.902048] (-) TimerEvent: {}
+[6.951118] (iwr6843aop_pub) CommandEnded: {'returncode': 0}
+[7.002556] (-) TimerEvent: {}
+[7.029057] (iwr6843aop_pub) JobEnded: {'identifier': 'iwr6843aop_pub', 'rc': 0}
+[7.033211] (-) EventReactorShutdown: {}

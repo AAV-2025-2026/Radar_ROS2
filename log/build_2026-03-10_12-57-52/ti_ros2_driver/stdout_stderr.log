@@ -1,0 +1,54 @@
+running develop
+Removing /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti-ros2-driver.egg-link (link to .)
+running egg_info
+writing ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/entry_points.txt
+writing requirements to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/requires.txt
+writing top-level names to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/top_level.txt
+reading manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ti_ros2_driver/TI.py -> /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver
+running install
+running install_lib
+creating /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver
+copying /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver/TI.py -> /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver
+copying /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver/pc_publisher.py -> /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver
+copying /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver/__init__.py -> /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver
+copying /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver/benchmark.py -> /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver
+copying /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver/plotheatmap.py -> /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver
+byte-compiling /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver/TI.py to TI.cpython-310.pyc
+byte-compiling /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver/pc_publisher.py to pc_publisher.cpython-310.pyc
+byte-compiling /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver/benchmark.py to benchmark.cpython-310.pyc
+byte-compiling /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver/plotheatmap.py to plotheatmap.cpython-310.pyc
+running install_data
+copying resource/ti_ros2_driver -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver
+copying launch/6843aop_base.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+copying launch/6843aop_HeatMap.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+copying launch/6843aop_3d_tracking.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+copying cfg/AOP_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/AOP_9m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/AOP_9m_sensitive.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/AOP_6m_tracking_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/RADheatmap.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ODS_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ODS_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ISK_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/AOP_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/3d_tracking_indoor.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/3d_tracking_high_detection.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ISK_6m_staticRetention_45deg.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ISK_14m_extended.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ISK_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/base.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/3d_tracking_low_noise.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying debug/result.json -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/debug
+running install_egg_info
+Copying ../../build/ti_ros2_driver/ti_ros2_driver.egg-info to /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pcl_pub script to /home/aav/ros2_ws/install/ti_ros2_driver/lib/ti_ros2_driver
+writing list of installed files to '/home/aav/ros2_ws/build/ti_ros2_driver/install.log'

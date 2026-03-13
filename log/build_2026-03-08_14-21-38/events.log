@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.003136] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.004759] (ti_ros2_driver) JobQueued: {'identifier': 'ti_ros2_driver', 'dependencies': OrderedDict()}
+[0.007273] (ti_ros2_driver) JobStarted: {'identifier': 'ti_ros2_driver'}
+[0.097131] (-) TimerEvent: {}
+[0.200385] (-) TimerEvent: {}
+[0.304358] (-) TimerEvent: {}
+[0.407135] (-) TimerEvent: {}
+[0.510637] (-) TimerEvent: {}
+[0.612101] (-) TimerEvent: {}
+[0.715360] (-) TimerEvent: {}
+[0.819787] (-) TimerEvent: {}
+[0.923552] (-) TimerEvent: {}
+[1.026030] (-) TimerEvent: {}
+[1.129669] (-) TimerEvent: {}
+[1.233134] (-) TimerEvent: {}
+[1.335487] (-) TimerEvent: {}
+[1.443773] (-) TimerEvent: {}
+[1.545490] (-) TimerEvent: {}
+[1.648070] (-) TimerEvent: {}
+[1.750268] (-) TimerEvent: {}
+[1.853377] (-) TimerEvent: {}
+[1.954841] (-) TimerEvent: {}
+[2.055925] (-) TimerEvent: {}
+[2.157262] (-) TimerEvent: {}
+[2.261120] (-) TimerEvent: {}
+[2.362410] (-) TimerEvent: {}
+[2.466371] (-) TimerEvent: {}
+[2.567894] (-) TimerEvent: {}
+[2.671890] (-) TimerEvent: {}
+[2.776848] (-) TimerEvent: {}
+[2.880302] (-) TimerEvent: {}
+[2.981959] (-) TimerEvent: {}
+[3.084005] (-) TimerEvent: {}
+[3.185598] (-) TimerEvent: {}
+[3.287204] (-) TimerEvent: {}
+[3.390830] (-) TimerEvent: {}
+[3.492579] (-) TimerEvent: {}
+[3.596976] (-) TimerEvent: {}
+[3.697918] (-) TimerEvent: {}
+[3.801916] (-) TimerEvent: {}
+[3.905491] (-) TimerEvent: {}
+[4.007858] (-) TimerEvent: {}
+[4.111168] (-) TimerEvent: {}
+[4.218918] (-) TimerEvent: {}
+[4.322252] (-) TimerEvent: {}
+[4.428089] (-) TimerEvent: {}
+[4.530763] (-) TimerEvent: {}
+[4.631997] (-) TimerEvent: {}
+[4.735019] (-) TimerEvent: {}
+[4.837063] (-) TimerEvent: {}
+[4.942186] (-) TimerEvent: {}
+[5.045216] (-) TimerEvent: {}
+[5.146870] (-) TimerEvent: {}
+[5.248684] (-) TimerEvent: {}
+[5.350892] (-) TimerEvent: {}
+[5.452273] (-) TimerEvent: {}
+[5.554002] (-) TimerEvent: {}
+[5.656687] (-) TimerEvent: {}
+[5.759261] (-) TimerEvent: {}
+[5.864356] (-) TimerEvent: {}
+[5.965506] (-) TimerEvent: {}
+[6.066945] (-) TimerEvent: {}
+[6.171002] (-) TimerEvent: {}
+[6.274845] (-) TimerEvent: {}
+[6.376365] (-) TimerEvent: {}
+[6.481030] (-) TimerEvent: {}
+[6.582896] (-) TimerEvent: {}
+[6.684502] (-) TimerEvent: {}
+[6.788383] (-) TimerEvent: {}
+[6.890303] (-) TimerEvent: {}
+[6.992289] (-) TimerEvent: {}
+[7.094047] (-) TimerEvent: {}
+[7.196062] (-) TimerEvent: {}
+[7.297559] (-) TimerEvent: {}
+[7.398838] (-) TimerEvent: {}
+[7.501188] (-) TimerEvent: {}
+[7.602207] (-) TimerEvent: {}
+[7.703893] (-) TimerEvent: {}
+[7.805074] (-) TimerEvent: {}
+[7.907511] (-) TimerEvent: {}
+[8.009385] (-) TimerEvent: {}
+[8.111566] (-) TimerEvent: {}
+[8.217876] (-) TimerEvent: {}
+[8.320294] (-) TimerEvent: {}
+[8.422092] (-) TimerEvent: {}
+[8.527074] (-) TimerEvent: {}
+[8.628758] (-) TimerEvent: {}
+[8.732886] (-) TimerEvent: {}
+[8.835668] (-) TimerEvent: {}
+[8.942590] (-) TimerEvent: {}
+[9.046068] (-) TimerEvent: {}
+[9.150005] (-) TimerEvent: {}
+[9.254954] (-) TimerEvent: {}
+[9.359005] (-) TimerEvent: {}
+[9.463358] (-) TimerEvent: {}
+[9.481316] (ti_ros2_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ti_ros2_driver', 'build', '--build-base', '/home/aav/ros2_ws/build/ti_ros2_driver/build', 'install', '--record', '/home/aav/ros2_ws/build/ti_ros2_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aav/ros2_ws/src/ti_ros2_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'aav', 'SSH_CLIENT': '172.17.156.96 63899 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aav/ros2_ws/install/backward_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/aav', 'OLDPWD': '/home/aav/ros2_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/aav/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/aav/ros2_ws/install/backward_ros/lib/aarch64-linux-gnu/pkgconfig:/home/aav/ros2_ws/install/backward_ros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/aav/ros2_ws/install/ti_ros2_driver:/home/aav/ros2_ws/install/object_detection:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'PWD': '/home/aav/ros2_ws/build/ti_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.17.156.96 63899 172.17.69.198 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aav/ros2_ws/install/object_detection:/home/aav/ros2_ws/install/backward_ros'}, 'shell': False}
+[9.563685] (-) TimerEvent: {}
+[9.664868] (-) TimerEvent: {}
+[9.768111] (-) TimerEvent: {}
+[9.869389] (-) TimerEvent: {}
+[9.970867] (-) TimerEvent: {}
+[10.075502] (-) TimerEvent: {}
+[10.180575] (-) TimerEvent: {}
+[10.281914] (-) TimerEvent: {}
+[10.383326] (-) TimerEvent: {}
+[10.486160] (-) TimerEvent: {}
+[10.587619] (-) TimerEvent: {}
+[10.689341] (-) TimerEvent: {}
+[10.791117] (-) TimerEvent: {}
+[10.896971] (-) TimerEvent: {}
+[11.000631] (-) TimerEvent: {}
+[11.104868] (-) TimerEvent: {}
+[11.207029] (-) TimerEvent: {}
+[11.310717] (-) TimerEvent: {}
+[11.412343] (-) TimerEvent: {}
+[11.514108] (-) TimerEvent: {}
+[11.615869] (-) TimerEvent: {}
+[11.717032] (-) TimerEvent: {}
+[11.818116] (-) TimerEvent: {}
+[11.920537] (-) TimerEvent: {}
+[12.025100] (-) TimerEvent: {}
+[12.126768] (-) TimerEvent: {}
+[12.228529] (-) TimerEvent: {}
+[12.330652] (-) TimerEvent: {}
+[12.433378] (-) TimerEvent: {}
+[12.537565] (-) TimerEvent: {}
+[12.640532] (-) TimerEvent: {}
+[12.745136] (-) TimerEvent: {}
+[12.848541] (-) TimerEvent: {}
+[12.952385] (-) TimerEvent: {}
+[13.056177] (-) TimerEvent: {}
+[13.157952] (-) TimerEvent: {}
+[13.260004] (-) TimerEvent: {}
+[13.363248] (-) TimerEvent: {}
+[13.454388] (ti_ros2_driver) StdoutLine: {'line': b'running egg_info\n'}
+[13.464121] (-) TimerEvent: {}
+[13.468149] (ti_ros2_driver) StdoutLine: {'line': b'writing ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/PKG-INFO\n'}
+[13.472801] (ti_ros2_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/dependency_links.txt\n'}
+[13.474997] (ti_ros2_driver) StdoutLine: {'line': b'writing entry points to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/entry_points.txt\n'}
+[13.476571] (ti_ros2_driver) StdoutLine: {'line': b'writing requirements to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/requires.txt\n'}
+[13.477695] (ti_ros2_driver) StdoutLine: {'line': b'writing top-level names to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/top_level.txt\n'}
+[13.506421] (ti_ros2_driver) StdoutLine: {'line': b"reading manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[13.514764] (ti_ros2_driver) StdoutLine: {'line': b"writing manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[13.515750] (ti_ros2_driver) StdoutLine: {'line': b'running build\n'}
+[13.516480] (ti_ros2_driver) StdoutLine: {'line': b'running build_py\n'}
+[13.517391] (ti_ros2_driver) StdoutLine: {'line': b'copying ti_ros2_driver/TI.py -> /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver\n'}
+[13.521950] (ti_ros2_driver) StdoutLine: {'line': b'running install\n'}
+[13.523558] (ti_ros2_driver) StdoutLine: {'line': b'running install_lib\n'}
+[13.530116] (ti_ros2_driver) StdoutLine: {'line': b'copying /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver/TI.py -> /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver\n'}
+[13.537614] (ti_ros2_driver) StdoutLine: {'line': b'byte-compiling /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver/TI.py to TI.cpython-310.pyc\n'}
+[13.564653] (-) TimerEvent: {}
+[13.571515] (ti_ros2_driver) StdoutLine: {'line': b'running install_data\n'}
+[13.582313] (ti_ros2_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.601652] (ti_ros2_driver) StdoutLine: {'line': b"removing '/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.604327] (ti_ros2_driver) StdoutLine: {'line': b'Copying ../../build/ti_ros2_driver/ti_ros2_driver.egg-info to /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info\n'}
+[13.613820] (ti_ros2_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[13.664981] (-) TimerEvent: {}
+[13.766836] (-) TimerEvent: {}
+[13.848256] (ti_ros2_driver) StdoutLine: {'line': b'Installing pcl_pub script to /home/aav/ros2_ws/install/ti_ros2_driver/lib/ti_ros2_driver\n'}
+[13.860520] (ti_ros2_driver) StdoutLine: {'line': b"writing list of installed files to '/home/aav/ros2_ws/build/ti_ros2_driver/install.log'\n"}
+[13.867702] (-) TimerEvent: {}
+[13.973004] (-) TimerEvent: {}
+[14.075775] (-) TimerEvent: {}
+[14.177667] (-) TimerEvent: {}
+[14.272445] (ti_ros2_driver) CommandEnded: {'returncode': 0}
+[14.283943] (-) TimerEvent: {}
+[14.385380] (-) TimerEvent: {}
+[14.464383] (ti_ros2_driver) JobEnded: {'identifier': 'ti_ros2_driver', 'rc': 0}
+[14.477173] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/aav/ros2_ws/build/object_detection': CMAKE_PREFIX_PATH=/home/aav/ros2_ws/install/ti_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/aav/ros2_ws/build/object_detection -- -j4 -l4
+Invoked command in '/home/aav/ros2_ws/build/object_detection' returned '-2': CMAKE_PREFIX_PATH=/home/aav/ros2_ws/install/ti_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/aav/ros2_ws/build/object_detection -- -j4 -l4

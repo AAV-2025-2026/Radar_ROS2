@@ -1,0 +1,37 @@
+running develop
+running egg_info
+writing ti_ros2_driver.egg-info/PKG-INFO
+writing dependency_links to ti_ros2_driver.egg-info/dependency_links.txt
+writing entry points to ti_ros2_driver.egg-info/entry_points.txt
+writing requirements to ti_ros2_driver.egg-info/requires.txt
+writing top-level names to ti_ros2_driver.egg-info/top_level.txt
+reading manifest file 'ti_ros2_driver.egg-info/SOURCES.txt'
+writing manifest file 'ti_ros2_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti-ros2-driver.egg-link (link to .)
+Installing pcl_pub script to /home/aav/ros2_ws/install/ti_ros2_driver/lib/ti_ros2_driver
+
+Installed /home/aav/ros2_ws/build/ti_ros2_driver
+running symlink_data
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/resource/ti_ros2_driver -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ament_index/resource_index/packages
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/package.xml -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/launch/6843aop_base.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/launch/6843aop_HeatMap.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/launch/6843aop_3d_tracking.launch.py -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/launch
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_9m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_9m_sensitive.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_6m_tracking_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/RADheatmap.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ODS_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ODS_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ISK_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/AOP_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/3d_tracking_indoor.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/3d_tracking_high_detection.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ISK_6m_staticRetention_45deg.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ISK_14m_extended.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/ISK_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/base.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/cfg/3d_tracking_low_noise.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+symbolically linking /home/aav/ros2_ws/build/ti_ros2_driver/debug/result.json -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/debug

@@ -1,0 +1,34 @@
+[2.815s] Invoking command in '/home/aav/ros2_ws/src/ti_ros2_driver': PYTHONPATH=/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ti_ros2_driver build --build-base /home/aav/ros2_ws/build/ti_ros2_driver/build install --record /home/aav/ros2_ws/build/ti_ros2_driver/install.log --single-version-externally-managed install_data
+[3.925s] running egg_info
+[3.929s] writing ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/PKG-INFO
+[3.930s] writing dependency_links to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/dependency_links.txt
+[3.931s] writing entry points to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/entry_points.txt
+[3.932s] writing requirements to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/requires.txt
+[3.932s] writing top-level names to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/top_level.txt
+[3.941s] reading manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'
+[3.946s] writing manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'
+[3.947s] running build
+[3.947s] running build_py
+[3.948s] copying ti_ros2_driver/TI.py -> /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver
+[3.951s] running install
+[3.952s] running install_lib
+[3.955s] copying /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver/TI.py -> /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver
+[3.959s] byte-compiling /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver/TI.py to TI.cpython-310.pyc
+[3.975s] running install_data
+[3.976s] copying cfg/AOP_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.977s] copying cfg/AOP_9m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.978s] copying cfg/AOP_9m_sensitive.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.979s] copying cfg/ODS_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.979s] copying cfg/ODS_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.980s] copying cfg/ISK_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.981s] copying cfg/AOP_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.986s] copying cfg/ISK_6m_staticRetention_45deg.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.986s] copying cfg/ISK_14m_extended.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.987s] copying cfg/ISK_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+[3.988s] running install_egg_info
+[3.995s] removing '/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[3.997s] Copying ../../build/ti_ros2_driver/ti_ros2_driver.egg-info to /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info
+[4.003s] running install_scripts
+[4.080s] Installing pcl_pub script to /home/aav/ros2_ws/install/ti_ros2_driver/lib/ti_ros2_driver
+[4.082s] writing list of installed files to '/home/aav/ros2_ws/build/ti_ros2_driver/install.log'
+[4.203s] Invoked command in '/home/aav/ros2_ws/src/ti_ros2_driver' returned '0': PYTHONPATH=/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ti_ros2_driver build --build-base /home/aav/ros2_ws/build/ti_ros2_driver/build install --record /home/aav/ros2_ws/build/ti_ros2_driver/install.log --single-version-externally-managed install_data

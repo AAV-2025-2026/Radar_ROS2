@@ -1,0 +1,138 @@
+[0.935s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ti_ros2_driver']
+[0.935s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ti_ros2_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa4ea18d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa503ef50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa503ef50>>, mixin_verb=('build',))
+[2.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.655s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aav/ros2_ws'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.761s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['ignore', 'ignore_ament_install']
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ignore'
+[2.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ignore_ament_install'
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['colcon_pkg']
+[2.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'colcon_pkg'
+[2.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['colcon_meta']
+[2.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'colcon_meta'
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extensions ['ros']
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection) by extension 'ros'
+[2.812s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detection' with type 'ros.ament_cmake' and name 'object_detection'
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extension 'ignore'
+[2.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extension 'ignore_ament_install'
+[2.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extensions ['colcon_pkg']
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extension 'colcon_pkg'
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extensions ['colcon_meta']
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extension 'colcon_meta'
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extensions ['ros']
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_ros2_driver) by extension 'ros'
+[2.822s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ti_ros2_driver' with type 'ros.ament_python' and name 'ti_ros2_driver'
+[2.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.953s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'object_detection' in 'src/object_detection'
+[2.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.965s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/aav/ros2_ws/install
+[2.974s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[2.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.541s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[3.543s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.544s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.545s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.546s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.547s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.549s] Level 5:colcon.colcon_core.verb:set package 'ti_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.550s] DEBUG:colcon.colcon_core.verb:Building package 'ti_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aav/ros2_ws/build/ti_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aav/ros2_ws/install/ti_ros2_driver', 'merge_install': False, 'path': '/home/aav/ros2_ws/src/ti_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[3.552s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.571s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aav/ros2_ws/src/ti_ros2_driver' with build type 'ament_python'
+[3.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_ros2_driver', 'ament_prefix_path')
+[3.607s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/hook/ament_prefix_path.ps1'
+[3.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/hook/ament_prefix_path.dsv'
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/hook/ament_prefix_path.sh'
+[3.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.424s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aav/ros2_ws/src/ti_ros2_driver'
+[7.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aav/ros2_ws/src/ti_ros2_driver': PYTHONPATH=/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ti_ros2_driver build --build-base /home/aav/ros2_ws/build/ti_ros2_driver/build install --record /home/aav/ros2_ws/build/ti_ros2_driver/install.log --single-version-externally-managed install_data
+[13.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aav/ros2_ws/src/ti_ros2_driver' returned '0': PYTHONPATH=/home/aav/ros2_ws/build/ti_ros2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ti_ros2_driver build --build-base /home/aav/ros2_ws/build/ti_ros2_driver/build install --record /home/aav/ros2_ws/build/ti_ros2_driver/install.log --single-version-externally-managed install_data
+[13.766s] Level 1:colcon.colcon_core.environment:checking '/home/aav/ros2_ws/install/ti_ros2_driver' for CMake module files
+[13.776s] Level 1:colcon.colcon_core.environment:checking '/home/aav/ros2_ws/install/ti_ros2_driver' for CMake config files
+[13.798s] Level 1:colcon.colcon_core.environment:checking '/home/aav/ros2_ws/install/ti_ros2_driver/lib'
+[13.802s] Level 1:colcon.colcon_core.environment:checking '/home/aav/ros2_ws/install/ti_ros2_driver/bin'
+[13.804s] Level 1:colcon.colcon_core.environment:checking '/home/aav/ros2_ws/install/ti_ros2_driver/lib/pkgconfig/ti_ros2_driver.pc'
+[13.810s] Level 1:colcon.colcon_core.environment:checking '/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages'
+[13.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_ros2_driver', 'pythonpath')
+[13.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/hook/pythonpath.ps1'
+[13.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/hook/pythonpath.dsv'
+[13.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/hook/pythonpath.sh'
+[13.843s] Level 1:colcon.colcon_core.environment:checking '/home/aav/ros2_ws/install/ti_ros2_driver/bin'
+[13.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ti_ros2_driver)
+[13.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/package.ps1'
+[13.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/package.dsv'
+[13.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/package.sh'
+[13.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/package.bash'
+[13.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/package.zsh'
+[13.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aav/ros2_ws/install/ti_ros2_driver/share/colcon-core/packages/ti_ros2_driver)
+[13.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.919s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.921s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.923s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.996s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.998s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.998s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.099s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aav/ros2_ws/install/local_setup.ps1'
+[14.110s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aav/ros2_ws/install/_local_setup_util_ps1.py'
+[14.119s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aav/ros2_ws/install/setup.ps1'
+[14.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aav/ros2_ws/install/local_setup.sh'
+[14.131s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aav/ros2_ws/install/_local_setup_util_sh.py'
+[14.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aav/ros2_ws/install/setup.sh'
+[14.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aav/ros2_ws/install/local_setup.bash'
+[14.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aav/ros2_ws/install/setup.bash'
+[14.173s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aav/ros2_ws/install/local_setup.zsh'
+[14.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aav/ros2_ws/install/setup.zsh'

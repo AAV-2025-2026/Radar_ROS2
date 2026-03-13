@@ -1,0 +1,23 @@
+[0.063s] Invoking command in '/home/aav/ros2_ws/build/object_detection': CMAKE_PREFIX_PATH=/home/aav/ros2_ws/install/ti_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/aav/ros2_ws/build/object_detection -- -j4 -l4
+[0.662s] [ 12%] [32mBuilding CXX object CMakeFiles/filter_multi_frames.dir/example/filter_multi_frames.cpp.o[0m
+[0.673s] [ 25%] [32mBuilding CXX object CMakeFiles/test_icp.dir/example/test_icp.cpp.o[0m
+[0.674s] [ 37%] [32mBuilding CXX object CMakeFiles/dbscan.dir/example/dbscan.cpp.o[0m
+[1.299s] [ 62%] Built target filter_single_frame
+[35.564s] In file included from [01m[K/home/aav/ros2_ws/src/object_detection/example/dbscan.cpp:5[m[K:
+[35.565s] [01m[K/home/aav/ros2_ws/src/object_detection/include/object_detection/cluster/dbscan.hpp:26:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[35.566s]    26 |     [01;35m[K{[m[K
+[35.566s]       |     [01;35m[K^[m[K
+[40.815s] In file included from [01m[K/home/aav/ros2_ws/src/object_detection/example/filter_multi_frames.cpp:13[m[K:
+[40.816s] [01m[K/home/aav/ros2_ws/src/object_detection/include/object_detection/cluster/dbscan.hpp:26:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[40.816s]    26 |     [01;35m[K{[m[K
+[40.817s]       |     [01;35m[K^[m[K
+[75.012s] [01m[K/home/aav/ros2_ws/src/object_detection/example/filter_multi_frames.cpp:[m[K In member function ‘[01m[Kbool minimalsubscriber::getPointcloud(const string&, pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[75.016s] [01m[K/home/aav/ros2_ws/src/object_detection/example/filter_multi_frames.cpp:223:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[75.017s]   223 |   [01;35m[K}[m[K
+[75.017s]       |   [01;35m[K^[m[K
+[104.468s] gmake[2]: *** [CMakeFiles/dbscan.dir/build.make:76: CMakeFiles/dbscan.dir/example/dbscan.cpp.o] Interrupt
+[104.477s] gmake[2]: *** [CMakeFiles/test_icp.dir/build.make:76: CMakeFiles/test_icp.dir/example/test_icp.cpp.o] Interrupt
+[104.477s] gmake[2]: *** [CMakeFiles/filter_multi_frames.dir/build.make:76: CMakeFiles/filter_multi_frames.dir/example/filter_multi_frames.cpp.o] Interrupt
+[104.478s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/test_icp.dir/all] Interrupt
+[104.478s] gmake: *** [Makefile:146: all] Interrupt
+[104.707s] Invoked command in '/home/aav/ros2_ws/build/object_detection' returned '-2': CMAKE_PREFIX_PATH=/home/aav/ros2_ws/install/ti_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/aav/ros2_ws/build/object_detection -- -j4 -l4

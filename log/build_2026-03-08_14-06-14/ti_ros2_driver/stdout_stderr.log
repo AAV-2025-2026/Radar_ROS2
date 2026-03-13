@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/entry_points.txt
+writing requirements to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/requires.txt
+writing top-level names to ../../build/ti_ros2_driver/ti_ros2_driver.egg-info/top_level.txt
+reading manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/ti_ros2_driver/ti_ros2_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ti_ros2_driver/TI.py -> /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver
+running install
+running install_lib
+copying /home/aav/ros2_ws/build/ti_ros2_driver/build/lib/ti_ros2_driver/TI.py -> /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver
+byte-compiling /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver/TI.py to TI.cpython-310.pyc
+running install_data
+copying cfg/AOP_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/AOP_9m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/AOP_9m_sensitive.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ODS_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ODS_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ISK_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/AOP_6m_default.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ISK_6m_staticRetention_45deg.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ISK_14m_extended.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+copying cfg/ISK_6m_staticRetention.cfg -> /home/aav/ros2_ws/install/ti_ros2_driver/share/ti_ros2_driver/cfg
+running install_egg_info
+removing '/home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ti_ros2_driver/ti_ros2_driver.egg-info to /home/aav/ros2_ws/install/ti_ros2_driver/lib/python3.10/site-packages/ti_ros2_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pcl_pub script to /home/aav/ros2_ws/install/ti_ros2_driver/lib/ti_ros2_driver
+writing list of installed files to '/home/aav/ros2_ws/build/ti_ros2_driver/install.log'

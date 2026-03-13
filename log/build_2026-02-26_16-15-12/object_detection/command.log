@@ -1,0 +1,2 @@
+Invoking command in '/home/aav/ros2_ws/build/object_detection': /usr/bin/cmake /home/aav/ros2_ws/src/object_detection -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/aav/ros2_ws/install/object_detection
+Invoked command in '/home/aav/ros2_ws/build/object_detection' returned '1': /usr/bin/cmake /home/aav/ros2_ws/src/object_detection -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/aav/ros2_ws/install/object_detection

@@ -1,0 +1,38 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info
+writing ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/entry_points.txt
+writing requirements to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/requires.txt
+writing top-level names to ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/top_level.txt
+writing manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+reading manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aav/ros2_ws/build/iwr6843aop_pub/build
+creating /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib
+creating /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+copying iwr6843aop_pub/publisher_member_function.py -> /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+copying iwr6843aop_pub/__init__.py -> /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub
+running install
+running install_lib
+creating /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub
+copying /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub/publisher_member_function.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub
+copying /home/aav/ros2_ws/build/iwr6843aop_pub/build/lib/iwr6843aop_pub/__init__.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub
+byte-compiling /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+byte-compiling /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index
+creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index
+creating /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index/packages
+copying resource/iwr6843aop_pub -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/iwr6843aop_pub
+copying launch/default_parameters.launch.py -> /home/aav/ros2_ws/install/iwr6843aop_pub/share/iwr6843aop_pub
+running install_egg_info
+Copying ../../build/iwr6843aop_pub/iwr6843aop_pub.egg-info to /home/aav/ros2_ws/install/iwr6843aop_pub/lib/python3.10/site-packages/iwr6843aop_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pcl_pub script to /home/aav/ros2_ws/install/iwr6843aop_pub/lib/iwr6843aop_pub
+writing list of installed files to '/home/aav/ros2_ws/build/iwr6843aop_pub/install.log'

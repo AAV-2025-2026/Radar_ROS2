@@ -1,0 +1,21 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/filter_multi_frames.dir/example/filter_multi_frames.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_icp.dir/example/test_icp.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/dbscan.dir/example/dbscan.cpp.o[0m
+[ 62%] Built target filter_single_frame
+In file included from [01m[K/home/aav/ros2_ws/src/object_detection/example/dbscan.cpp:5[m[K:
+[01m[K/home/aav/ros2_ws/src/object_detection/include/object_detection/cluster/dbscan.hpp:26:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+   26 |     [01;35m[K{[m[K
+      |     [01;35m[K^[m[K
+In file included from [01m[K/home/aav/ros2_ws/src/object_detection/example/filter_multi_frames.cpp:13[m[K:
+[01m[K/home/aav/ros2_ws/src/object_detection/include/object_detection/cluster/dbscan.hpp:26:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+   26 |     [01;35m[K{[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/aav/ros2_ws/src/object_detection/example/filter_multi_frames.cpp:[m[K In member function ‘[01m[Kbool minimalsubscriber::getPointcloud(const string&, pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/aav/ros2_ws/src/object_detection/example/filter_multi_frames.cpp:223:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  223 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/dbscan.dir/build.make:76: CMakeFiles/dbscan.dir/example/dbscan.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/test_icp.dir/build.make:76: CMakeFiles/test_icp.dir/example/test_icp.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/filter_multi_frames.dir/build.make:76: CMakeFiles/filter_multi_frames.dir/example/filter_multi_frames.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/test_icp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

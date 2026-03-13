@@ -1,0 +1,86 @@
+[0.042s] Invoking command in '/home/aav/ros2_ws/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aav/ros2_ws/src/object_detection -DCMAKE_INSTALL_PREFIX=/home/aav/ros2_ws/install/object_detection
+[0.131s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.887s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.501s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.905s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.955s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.027s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.573s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.600s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.206s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.477s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.993s] -- Looking for pthread.h
+[4.361s] -- Looking for pthread.h - found
+[4.362s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.716s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.720s] -- Found Threads: TRUE  
+[5.048s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[5.480s] -- Checking for module 'eigen3'
+[5.546s] --   Found eigen3, version 3.4.0
+[5.702s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.703s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.138s] -- Checking for module 'flann'
+[6.202s] --   Found flann, version 1.9.1
+[6.380s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[6.381s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[10.955s] -- Checking for module 'libusb-1.0'
+[11.020s] --   Found libusb-1.0, version 1.0.25
+[11.222s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[11.227s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.534s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.136s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.161s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.188s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.782s] -- Found Qhull version 8.0.2
+[13.422s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.999s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[14.006s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[14.011s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[14.015s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[14.019s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[14.023s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[14.025s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[14.026s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[14.030s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[14.034s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[14.039s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[14.043s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[14.047s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[14.051s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[14.055s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[14.059s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[14.063s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[14.067s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[14.071s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[14.075s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[14.078s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[14.080s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[14.083s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[14.087s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[14.091s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[14.458s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[14.465s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.466s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[15.068s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[15.211s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.815s] -- Configured cppcheck include dirs: /home/aav/ros2_ws/src/object_detection/include
+[15.815s] -- Configured cppcheck exclude dirs and/or files: 
+[15.820s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.828s] -- Added test 'lint_cmake' to check CMake code style
+[15.834s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.858s] -- Added test 'uncrustify' to check C / C++ code style
+[15.859s] -- Configured uncrustify additional arguments: 
+[15.864s] -- Added test 'xmllint' to check XML markup files
+[15.872s] -- Configuring done
+[17.018s] -- Generating done
+[17.230s] -- Build files have been written to: /home/aav/ros2_ws/build/object_detection
+[17.313s] Invoked command in '/home/aav/ros2_ws/build/object_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aav/ros2_ws/src/object_detection -DCMAKE_INSTALL_PREFIX=/home/aav/ros2_ws/install/object_detection
+[17.325s] Invoking command in '/home/aav/ros2_ws/build/object_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aav/ros2_ws/build/object_detection -- -j4 -l4
+[17.569s] [ 12%] [32mBuilding CXX object CMakeFiles/filter_single_frame.dir/example/filter_single_frame.cpp.o[0m
+[17.577s] [ 25%] [32mBuilding CXX object CMakeFiles/dbscan.dir/example/dbscan.cpp.o[0m
+[17.580s] [ 37%] [32mBuilding CXX object CMakeFiles/filter_multi_frames.dir/example/filter_multi_frames.cpp.o[0m
+[17.591s] [ 50%] [32mBuilding CXX object CMakeFiles/test_icp.dir/example/test_icp.cpp.o[0m

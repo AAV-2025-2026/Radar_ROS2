@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-c961d500281ac05c4f42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "object_detection",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dbscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbscan-RelWithDebInfo-dd5f7e5536ba8c132ecc.json",
+					"name" : "dbscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_multi_frames::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_multi_frames-RelWithDebInfo-4f846e500214314bc219.json",
+					"name" : "filter_multi_frames",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_single_frame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_single_frame-RelWithDebInfo-df829e15509bed1577ad.json",
+					"name" : "filter_single_frame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_detection_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_detection_uninstall-RelWithDebInfo-0d90ffefac8d7448b7cd.json",
+					"name" : "object_detection_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_icp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_icp-RelWithDebInfo-c34aa8200fe95795c3c7.json",
+					"name" : "test_icp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-c95d4168b14904a92119.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aav/ros2_ws/build/object_detection",
+		"source" : "/home/aav/ros2_ws/src/object_detection"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

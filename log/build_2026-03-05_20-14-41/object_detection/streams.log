@@ -1,0 +1,15 @@
+[0.162s] Invoking command in '/home/aav/ros2_ws/build/object_detection': CMAKE_PREFIX_PATH=/home/aav/ros2_ws/install/ti_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/aav/ros2_ws/build/object_detection -- -j4 -l4
+[1.561s] [ 12%] [32mBuilding CXX object CMakeFiles/filter_single_frame.dir/example/filter_single_frame.cpp.o[0m
+[344.573s] [ 25%] [32m[1mLinking CXX executable filter_single_frame[0m
+[353.438s] [ 25%] Built target filter_single_frame
+[353.695s] [ 37%] [32mBuilding CXX object CMakeFiles/test_icp.dir/example/test_icp.cpp.o[0m
+[353.746s] [ 50%] [32mBuilding CXX object CMakeFiles/filter_multi_frames.dir/example/filter_multi_frames.cpp.o[0m
+[353.751s] [ 62%] [32mBuilding CXX object CMakeFiles/dbscan.dir/example/dbscan.cpp.o[0m
+[437.109s] In file included from [01m[K/home/aav/ros2_ws/src/object_detection/example/dbscan.cpp:5[m[K:
+[437.135s] [01m[K/home/aav/ros2_ws/src/object_detection/include/object_detection/cluster/dbscan.hpp:26:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[437.136s]    26 |     [01;35m[K{[m[K
+[437.138s]       |     [01;35m[K^[m[K
+[456.140s] In file included from [01m[K/home/aav/ros2_ws/src/object_detection/example/filter_multi_frames.cpp:13[m[K:
+[456.163s] [01m[K/home/aav/ros2_ws/src/object_detection/include/object_detection/cluster/dbscan.hpp:26:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[456.164s]    26 |     [01;35m[K{[m[K
+[456.166s]       |     [01;35m[K^[m[K
